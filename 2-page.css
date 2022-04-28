@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background: black;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 640px;
+    height: 328px;
+    background: #fff;
+    margin: auto;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    
+}
+
+.loginTitle{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.loginText{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #A9A9A9;
+    box-sizing: border-box;
+    margin-top: 8px;
+    
+    
+
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;  
+}
+.inputCode {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+    border: 0.5px solid #DADADA;
+    margin: 0px 8px;
+  }
+
+  .btn{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border: none;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
